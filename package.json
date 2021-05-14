@@ -1,0 +1,16 @@
+{
+  "name": "reinforce-bot",
+  "version": "1.0.0",
+  "description": "A Twitch bot that occasionally posts compliments/reinforcements to a given Twitch streamer.",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"run": "nodemon bot"
+  },
+  "author": "lavaskin",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^2.0.7",
+    "tmi.js": "^1.7.5"
+  }
+}
